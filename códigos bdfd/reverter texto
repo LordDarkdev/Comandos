@@ -1,0 +1,6 @@
+
+$httpGet[https://api.popcat.xyz/reverse?text=$replaceText[$message; ;+;-1]]
+$onlyIf[$message!=;Escreva alguma coisa ]
+**📝 | Texto revertido: `$httpResult[text]`**
+$nomention
+$reply 
