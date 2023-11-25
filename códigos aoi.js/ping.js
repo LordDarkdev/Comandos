@@ -1,5 +1,10 @@
+
 module.exports = [{
-  name: "ping",
-  code: ` meu ping está em `$pingms` !
-  `
-}]
+name: "ping",
+aliases: ['latência,latencia,pong'],
+code: `
+
+**[ 🏓 | Ping: \`$pingms\`**
+**[ ⏰ | Tempo Online: <t:$truncate[$math[($datestamp-$uptime[ms])/1000]]:R>**
+`
+}] 
