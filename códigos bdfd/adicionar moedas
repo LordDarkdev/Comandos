@@ -1,0 +1,9 @@
+$onlyForIDs[seu id aq; Você não pode executar esse comando!]
+
+$onlyIf[$noMentionMessage!=;Digite algum valor !]
+$onlyIf[$mentioned[1]!=;mencione alguém!]
+$var[valor;$replaceText[$replaceText[$replaceText[$noMentionMessage;k;000];m;000000];b;000000000]]
+$var[var;nome da sua var aq]
+$nomention
+🪙 | <@$mentioned[1]> recebeu $numberSeparator[$var[valor]] moedas adicionadas por <@$authorID> !
+$setVar[$var[var];$sum[$getVar[$var[var];$mentioned[1]];$var[valor]];$mentioned[1]]
