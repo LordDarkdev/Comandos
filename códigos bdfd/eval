@@ -1,0 +1,3 @@
+$nomention
+$onlyForIDs[$botOwnerID;]
+$eval[$message]
