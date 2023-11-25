@@ -1,0 +1,5 @@
+$onlyIf[$checkContains[$message;+;-;/;*;%;÷;x;×]!=false;**Forneça uma conta correta!**]
+$nomention
+$reply
+Calculando....
+$editIn[2s;📐 | <@$authorID>,A resposta para sua conta é `$numberSeparator[$calculate[$replaceText[$replaceText[$replaceText[$message;÷;/];x;*];×;*]]]` !] 
