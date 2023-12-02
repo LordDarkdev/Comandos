@@ -1,0 +1,8 @@
+$nomention
+$var[money;SUA VAR DE DINHEIRO]
+$if[$mentioned[1]==]
+💸 | <@$authorID> Você tem **$numberSeparator[$getVar[$var[money];$authorID]] Coins **
+$else
+💸 | <@$mentioned[1]> Tem **$numberSeparator[$getVar[$var[money];$mentioned[1]]] Coins **
+
+$endif
